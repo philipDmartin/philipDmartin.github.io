@@ -162,6 +162,14 @@ textarea {
 
 /* Basic */
 
+.iconTitle {
+  margin-top: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  margin-right: 10px;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -206,7 +214,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px #666;
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
@@ -273,7 +281,7 @@ h4 {
 
 h5 {
   font-size: 0.9em;
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 
 h6 {
@@ -2490,6 +2498,7 @@ input[type='radio'] + label:before {
 
 .image.fit img {
   width: 100%;
+  box-shadow: gray;
 }
 
 /* List */
@@ -2710,16 +2719,16 @@ ul.icons li .icon:before {
 ul.major-icons {
   list-style: none;
   padding-left: 0;
-  color: #f0f0f5;
 }
 
 ul.major-icons li {
   display: inline-block;
-  padding: 2.5em;
   text-align: center;
   border: double;
-  background-color: #444446a8;
+  background-color: #444446;
   margin: 20px;
+  height: 100px;
+  width: 200px;
 }
 
 /* ul.major-icons li .icon {
@@ -2832,7 +2841,6 @@ button,
   border-radius: 4px;
   border: 0;
   box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.5);
-  color: #555 !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.9em;
@@ -2853,7 +2861,8 @@ input[type='reset']:hover,
 input[type='button']:hover,
 button:hover,
 .button:hover {
-  background-color: rgba(144, 144, 144, 0.075);
+  background-color: rgb(255, 254, 254);
+  color: white;
 }
 
 input[type='submit']:active,
@@ -2951,7 +2960,7 @@ button:disabled,
 }
 
 .main.style1 {
-  background: #fff;
+  background: rgb(25, 25, 25);
 }
 
 .tech {
@@ -2961,10 +2970,15 @@ button:disabled,
 
 #resume {
   margin-left: 200px;
+  color: white;
+}
+
+.topCol {
+  color: rgb(221, 220, 220);
 }
 
 .main.style2 {
-  background-image: url('./images/itsDone\ \(1\).jpg');
+  background-image: url('./images/Greens.jpg');
   /* width: 100vw; */
   /* height: 100vh; */
   /* background-repeat:no-repeat; */
@@ -2974,7 +2988,6 @@ button:disabled,
 
 .main.style2 {
   background-color: #333;
-  border: orange;
 
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed, fixed;
@@ -3004,7 +3017,8 @@ button:disabled,
 .main.style2 h6,
 .main.style2 strong,
 .main.style2 b {
-  color: #ffffff;
+  color: #fafaf6;
+  font-family: sans-serif;
 }
 
 .main.style2 header p {
@@ -3091,19 +3105,21 @@ button:disabled,
   color: rgb(17, 17, 17);
   font-size: 0.9em;
   font-weight: 400;
-}
-
-.colorPhone {
+  margin-top: 115px;
 }
 
 .colorInfo {
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(52, 53, 52, 0.678);
   color: rgb(216, 215, 215);
   border-radius: 15%;
-  height: 450px;
-  width: 500px;
+  height: 460px;
+  width: 1100px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  margin: 50px;
+  position: relative;
+  bottom: 210px;
+  margin-left: 15px;
 }
 
 .contactTitle {
@@ -3118,6 +3134,7 @@ button:disabled,
   text-transform: none !important;
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
+  margin-left: auto;
 }
 
 .phone {
@@ -3129,7 +3146,7 @@ button:disabled,
   font-family: Arial, Helvetica, sans-serif; */
 
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(28, 123, 160, 0.76);
+  background-color: rgba(57, 170, 214, 0.842);
   color: rgb(5, 5, 5) !important;
 
   border-radius: 4px;
@@ -3138,7 +3155,6 @@ button:disabled,
   display: inline-block;
   font-size: 0.9em;
   font-weight: 400;
-  height: 2.75em;
   letter-spacing: 0.125em;
   line-height: 2.75em;
   padding: 0 2em;
@@ -3147,6 +3163,14 @@ button:disabled,
   text-indent: 0.125em;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-right: 500px;
+  height: 75px;
+  width: 200px;
+}
+
+.pLetters {
+  padding: 15px;
+  font-size: x-large;
 }
 
 .email {
@@ -3155,7 +3179,7 @@ button:disabled,
   width: 90px;
   margin-left: 200px; */
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(28, 123, 160, 0.76);
+  background-color: rgba(57, 170, 214, 0.842);
   color: rgb(5, 5, 5) !important;
   border-radius: 4px;
   border: 0;
@@ -3172,6 +3196,15 @@ button:disabled,
   text-indent: 0.125em;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-right: 500px;
+  height: 75px;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.eLetters {
+  padding: 15px;
+  font-size: x-large;
 }
 
 .gitHub {
@@ -3180,7 +3213,7 @@ button:disabled,
   width: 90px;
   margin-left: 200px; */
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(28, 123, 160, 0.76);
+  background-color: rgba(57, 170, 214, 0.842);
   color: rgb(5, 5, 5) !important;
   border-radius: 4px;
   border: 0;
@@ -3197,6 +3230,16 @@ button:disabled,
   text-indent: 0.125em;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-left: 500px;
+  height: 75px;
+  width: 200px;
+  position: relative;
+  bottom: 330px;
+}
+
+.gLetters {
+  padding: 15px;
+  font-size: x-large;
 }
 
 .linkedIn {
@@ -3205,7 +3248,7 @@ button:disabled,
   width: 90px;
   margin-left: 200px; */
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(28, 123, 160, 0.76);
+  background-color: rgba(57, 170, 214, 0.842);
   color: rgb(5, 5, 5) !important;
   border-radius: 4px;
   border: 0;
@@ -3216,12 +3259,45 @@ button:disabled,
   height: 2.75em;
   letter-spacing: 0.125em;
   line-height: 2.75em;
-  padding: 0 2em;
   text-align: center;
   text-decoration: none;
   text-indent: 0.125em;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-left: 500px;
+  height: 75px;
+  width: 200px;
+  position: relative;
+  bottom: 382px;
+}
+
+.lLetters {
+  padding: 15px;
+  font-size: x-large;
+}
+
+.contactInfoL {
+  margin-right: 500px;
+  font-size: xx-large;
+  margin-top: 30px;
+}
+
+.contactInfoLink {
+  margin-left: 500px;
+  font-size: xx-large;
+  position: relative;
+  bottom: 350px;
+}
+
+.contactInfoGit {
+  margin-left: 500px;
+  font-size: xx-large;
+  position: relative;
+  bottom: 300px;
+}
+
+.iconT {
+  color: #4361c2;
 }
 
 /* Header */
@@ -3767,6 +3843,10 @@ body.is-preload #header:after {
   #footer {
     padding: 3em 1.5em 3em 1.5em;
   }
+}
+
+.buttonYo {
+  color: white;
 }
 
 /* XSmall */
